@@ -1766,3 +1766,29 @@ Action:
 
 Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
 
+2024-05-12 21:13:12 [main] INFO  c.side.project.chat.ChatApplication - Starting ChatApplication using Java 17.0.11 on DESKTOP-VSUAPUB with PID 15508 (C:\project\chat\chat\out\production\classes started by 82104 in C:\project\chat\chat)
+2024-05-12 21:13:12 [main] INFO  c.side.project.chat.ChatApplication - No active profile set, falling back to default profiles: default
+2024-05-12 21:13:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-12 21:13:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2024-05-12 21:13:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-05-12 21:13:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-05-12 21:13:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-12 21:13:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2024-05-12 21:13:13 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-12 21:13:13 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1096 ms
+2024-05-12 21:13:13 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-12 21:13:13 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.4.Final
+2024-05-12 21:13:13 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-05-12 21:13:13 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-12 21:13:13 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-12 21:13:13 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2024-05-12 21:13:14 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-05-12 21:13:14 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-12 21:13:14 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ec54c8bb-2e89-4a31-84e5-5e487bcbcdfb
+
+2024-05-12 21:13:14 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@26612078, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e7e7a7e, org.springframework.security.web.header.HeaderWriterFilter@1d0dad12, org.springframework.security.web.csrf.CsrfFilter@26712838, org.springframework.security.web.authentication.logout.LogoutFilter@40ddf339, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2f0e7fa8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1191029d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@54bc3bcf, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@45d38165, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c610f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@773c7147, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d3d5094, org.springframework.security.web.session.SessionManagementFilter@58a8ea6f, org.springframework.security.web.access.ExceptionTranslationFilter@be1c08a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27dc81be]
+2024-05-12 21:13:14 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-05-12 21:13:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-12 21:13:14 [main] INFO  c.side.project.chat.ChatApplication - Started ChatApplication in 3.072 seconds (JVM running for 3.727)
